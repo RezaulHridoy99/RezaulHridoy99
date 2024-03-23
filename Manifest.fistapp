@@ -1,0 +1,63 @@
+- 👋 Hi, I’m @RezaulHridoy99
+- 👀 I’m interested in ...Android app development.
+- 🌱 I’m currently learning ...app development with java.
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firstapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".SongOne"
+            android:exported="false" />
+        <activity
+            android:name=".MediaPlayer2"
+            android:exported="false" />
+        <activity
+            android:name=".FirstSong"
+            android:exported="false" />
+        <activity
+            android:name=".MediaPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".WebView"
+            android:exported="false" />
+        <activity
+            android:name=".visibility_toast"
+            android:exported="false" />
+        <activity
+            android:name=".tasbeeh"
+            android:exported="false" />
+        <activity
+            android:name=".clickevent"
+            android:exported="false" />
+        <activity
+            android:name=".tom_jerry"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
